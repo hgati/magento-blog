@@ -1,0 +1,26 @@
+{
+    "name":"hgati/magento-blog",
+    "type":"magento-module",
+    "description":"Blog extension for Magento.",
+
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    },
+
+    "extra": {
+        "map": [
+            ["app/code/local/Mageplaza/BetterBlog", "app/code/local/Mageplaza/BetterBlog"],
+            ["app/design/adminhtml/default/default/layout/mageplaza_betterblog.xml", "app/design/adminhtml/default/default/layout/mageplaza_betterblog.xml"],
+            ["app/design/adminhtml/default/default/template/mageplaza_betterblog", "app/design/adminhtml/default/default/template/mageplaza_betterblog"],
+            ["app/design/frontend/base/default/layout/mageplaza_betterblog.xml", "app/design/frontend/base/default/layout/mageplaza_betterblog.xml"],
+            ["app/design/frontend/base/default/template/mageplaza_betterblog", "app/design/frontend/base/default/template/mageplaza_betterblog"],
+            ["app/etc/modules/Mageplaza_BetterBlog.xml", "app/etc/modules/Mageplaza_BetterBlog.xml"],
+            ["app/locale/en_US/Mageplaza_BetterBlog.csv", "app/locale/en_US/Mageplaza_BetterBlog.csv"],
+            ["media/post/image", "media/post/image"],
+            ["sitemap", "sitemap"],
+            ["skin/frontend/base/default/css/mageplaza_betterblog", "skin/frontend/base/default/css/mageplaza_betterblog"],
+            ["skin/frontend/base/default/images/mageplaza_betterblog", "skin/frontend/base/default/images/mageplaza_betterblog"],
+            ["skin/frontend/base/default/js/mageplaza_betterblog", "skin/frontend/base/default/js/mageplaza_betterblog"]
+        ]
+    }
+}
